@@ -1,0 +1,676 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+ul.nav-Links {
+  display: flex;
+  margin: 0;
+  margin-left: 600px;
+}
+
+ul.nav-Links li.list-item {
+  margin: 25px;
+  margin-top: 35px;
+  list-style: none;
+  font-size: 18px;
+  color: rgb(177, 19, 71);
+  font-family: "Century Gothic";
+  font-weight: 700;
+}
+
+ul.nav-Links li.list-item:hover {
+  margin: 25px;
+  margin-top: 35px;
+  list-style: none;
+  font-size: 18px;
+  color: rgb(177, 19, 71);
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgb(177, 19, 71);
+}
+
+ul.nav-Links li a.page-link {
+  text-decoration: none;
+  color: rgb(177, 19, 71);
+}
+
+ul.nav-Links li.List-item {
+  margin: 25px;
+  margin-top: 20px;
+  padding-top: 13px;
+  padding-left: 15px;
+  list-style: none;
+  font-size: 18px;
+  color: white;
+  width: 150px;
+  height: 50px;
+  background-color: rgb(177, 19, 71);
+  border: none;
+  font-weight: 700;
+  font-family: "Century Gothic";
+}
+
+.heading2 {
+  text-align: center;
+  color: rgb(82, 29, 47);
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Century Gothic";
+}
+
+.question-1 {
+  color: rgb(82, 29, 47);
+  font-weight: 700;
+  font-family: "Century Gothic";
+  margin-bottom: 10px;
+}
+
+.answer-1 {
+  color: gray;
+  font-weight: 700;
+  font-family: "Century Gothic";
+  margin-bottom: 30px;
+}
+
+.question-2 {
+  color: rgb(82, 29, 47);
+  font-weight: 700;
+  font-family: "Century Gothic";
+  margin-bottom: 10px;
+}
+
+.answer-2 {
+  color: gray;
+  font-weight: 700;
+  font-family: "Century Gothic";
+}
+
+.sign {
+  color: rgb(177, 19, 71);
+}
+
+.qa {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.Second-qa {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 730px;
+}
+
+.question-3 {
+  color: rgb(82, 29, 47);
+  font-weight: 700;
+  font-family: "Century Gothic";
+  margin-bottom: 10px;
+}
+
+.answer-3 {
+  color: gray;
+  font-weight: 700;
+  font-family: "Century Gothic";
+  margin-bottom: 30px;
+}
+
+.question-4 {
+  color: rgb(82, 29, 47);
+  font-weight: 700;
+  font-family: "Century Gothic";
+  margin-bottom: 10px;
+}
+
+.answer-4 {
+  color: gray;
+  font-weight: 700;
+  font-family: "Century Gothic";
+}
+
+.footer-img {
+  margin-top: 400px;
+}
+
+.first-img {
+  background-image: url("food (15).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 84.3rem;
+  height: 90px;
+}
+
+.second-img {
+  position: inherit;
+  background-image: url("food (24).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 84.3rem;
+  height: 90px;
+}
+
+.bg-black {
+  position: absolute;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 84.3rem;
+  height: 180px;
+}
+
+.Inner-Content {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  font-family: "Century Gothic";
+  font-weight: 700;
+  margin-top: 90px;
+  margin-left: 200px;
+}
+
+.btns1 {
+  width: 120px;
+  height: 40px;
+  color: white;
+  font-weight: 700;
+  font-family: "Century Gothic";
+  border: none;
+  background-color: rgb(177, 19, 71);
+  margin-left: 200px;
+}
+
+.hurry {
+  color: rgb(82, 29, 47);
+  font-weight: 700;
+  font-size: 27px;
+  font-family: "Century Gothic";
+  text-align: center;
+  margin-top: 80px;
+}
+
+.limited {
+  color: gray;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Century Gothic";
+  text-align: center;
+  margin-top: 10px;
+}
+
+.input-group {
+  margin-top: 40px;
+  margin-left: 450px;
+}
+
+.msg {
+  width: 300px;
+  height: 40px;
+  border: 2px solid gray;
+}
+
+::placeholder {
+  padding-left: 20px;
+  color: gray;
+  font-family: "Century Gothic";
+  font-weight: 600;
+}
+
+.btns2 {
+  width: 120px;
+  height: 40px;
+  color: white;
+  font-weight: 700;
+  font-family: "Century Gothic";
+  border: none;
+  background-color: rgb(177, 19, 71);
+  margin-left: 20px;
+}
+
+.footer-bg {
+  width: 84.32rem;
+  height: 150px;
+  background-color: rgb(177, 19, 71);
+  margin-top: 70px;
+}
+
+ul.footer {
+  margin: 0px;
+  padding-top: 40px;
+}
+
+ul.footer li {
+  display: inline;
+}
+
+ul.footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+ul.footer li a p {
+  display: inline;
+  margin-left: 150px;
+}
+
+.one {
+  margin-left: 300px;
+}
+
+.fa-stack {
+  margin-left: 30px;
+}
+
+ul.facebook li.face {
+  text-decoration: none;
+  list-style: none;
+}
+
+ul.twitter li.tweet {
+  text-decoration: none;
+  list-style: none;
+}
+
+ul.linkedin li.link {
+  text-decoration: none;
+  list-style: none;
+}
+
+.social-media {
+  margin-top: 30px;
+  margin-left: 490px;
+}
+
+.icon {
+  display: none;
+  color: white;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: white;
+  }
+
+  ul.nav-Links {
+    display: flex;
+    margin: 0;
+    margin-left: 0px;
+  }
+
+  ul.nav-Links li.list-item {
+    margin: 25px;
+    margin-top: 35px;
+    list-style: none;
+    font-size: 18px;
+    color: white;
+  }
+
+  ul.nav-Links li a.page-link {
+    text-decoration: none;
+    color: white;
+  }
+
+  div.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100vw;
+  }
+
+  ul.nav-Links {
+    flex-direction: column;
+  }
+
+  ul li {
+    margin: 0;
+    font-size: 17px;
+  }
+
+  ul li a {
+    display: block;
+    color: white;
+  }
+
+  .nav-Links {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: gray;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 70%;
+    height: 500px;
+    border-radius: 10px;
+    text-align: left;
+    transition: 0.3s;
+  }
+
+  .nav-Links.active {
+    left: 0;
+  }
+
+  li {
+    margin: 2.5rem 0;
+  }
+
+  ul.nav-Links li.list-item:hover {
+    margin: 25px;
+    margin-top: 35px;
+    list-style: none;
+    font-size: 18px;
+    color: rgb(177, 19, 71);
+    border-bottom: none;
+  }
+
+  .icon {
+    display: block;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+  }
+
+  .heading2 {
+    text-align: center;
+    color: rgb(82, 29, 47);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Century Gothic";
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 50px;
+  }
+
+  .qa {
+    position: initial;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+
+  .question-1 {
+    color: rgb(82, 29, 47);
+    font-weight: 700;
+    font-family: "Century Gothic";
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+  }
+
+  .answer-1 {
+    color: gray;
+    font-weight: 700;
+    font-family: "Century Gothic";
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+  }
+
+  .question-2 {
+    color: rgb(82, 29, 47);
+    font-weight: 700;
+    font-family: "Century Gothic";
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+  }
+
+  .answer-2 {
+    color: gray;
+    font-weight: 700;
+    font-family: "Century Gothic";
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 60px;
+  }
+
+  .sign {
+    color: rgb(177, 19, 71);
+  }
+
+  .Second-qa {
+    position: initial;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+
+  .question-3 {
+    color: rgb(82, 29, 47);
+    font-weight: 700;
+    font-family: "Century Gothic";
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+  }
+
+  .animal {
+    margin-left: 15px;
+  }
+
+  .answer-3 {
+    color: gray;
+    font-weight: 700;
+    font-family: "Century Gothic";
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+
+  .question-4 {
+    color: rgb(82, 29, 47);
+    font-weight: 700;
+    font-family: "Century Gothic";
+    text-align: left;
+    margin-left: 0;
+    margin-right: 70px;
+    margin-bottom: 20px;
+  }
+
+  .near {
+    margin-left: 15px;
+  }
+
+  .answer-4 {
+    color: gray;
+    font-weight: 700;
+    font-family: "Century Gothic";
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+
+  .footer-img {
+    margin-top: 100px;
+  }
+
+  .first-img {
+    background-image: url("food (15).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24.3rem;
+    height: 90px;
+  }
+
+  .second-img {
+    position: inherit;
+    background-image: url("food (24).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24.3rem;
+    height: 90px;
+  }
+
+  .bg-black {
+    position: absolute;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 34.3rem;
+    height: 180px;
+  }
+
+  .Inner-Content {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: "Century Gothic";
+    font-weight: 700;
+    margin-top: 65px;
+    margin-left: 20px;
+  }
+
+  .by::after {
+    content: "\a";
+    white-space: pre;
+  }
+
+  .btns1 {
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-weight: 700;
+    font-family: "Century Gothic";
+    border: none;
+    background-color: rgb(177, 19, 71);
+    margin-top: 10px;
+    margin-left: 170px;
+  }
+
+  .hurry {
+    color: rgb(82, 29, 47);
+    font-weight: 700;
+    font-size: 25px;
+    font-family: "Century Gothic";
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    line-height: 2rem;
+  }
+
+  .news {
+    margin-left: 20px;
+  }
+
+  .discount {
+    margin-left: 90px;
+  }
+
+  .limited {
+    color: gray;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Century Gothic";
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+
+  .month::after {
+    content: "\a";
+    white-space: pre;
+  }
+
+  .no {
+    margin-left: 20px;
+  }
+
+  .input-group {
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+
+  .msg {
+    width: 250px;
+    height: 50px;
+    border: 2px solid gray;
+    margin-bottom: 20px;
+  }
+
+  ::placeholder {
+    padding-left: 20px;
+    color: gray;
+    font-family: "Century Gothic";
+    font-weight: 600;
+  }
+
+  .btns2 {
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-weight: 700;
+    font-family: "Century Gothic";
+    border: none;
+    background-color: rgb(177, 19, 71);
+    margin-left: 170px;
+  }
+
+  .footer-bg {
+    width: 84.32rem;
+    height: 450px;
+    background-color: rgb(177, 19, 71);
+    margin-top: 170px;
+  }
+
+  ul.footer {
+    margin: 0px;
+    padding-top: 40px;
+  }
+
+  ul.footer li {
+    display: block;
+    padding: 20px;
+  }
+
+  ul.footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+  }
+
+  ul.footer li a p {
+    display: inline;
+    margin-left: 50px;
+  }
+
+  .one {
+    margin-left: 0px;
+  }
+
+  .fa-stack {
+    margin-left: 30px;
+  }
+
+  ul.facebook li.face {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  ul.twitter li.tweet {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  ul.linkedin li.link {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .social-media {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+}

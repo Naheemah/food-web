@@ -1,0 +1,480 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+ul.nav-Links {
+  display: flex;
+  margin: 0;
+  margin-left: 600px;
+}
+
+ul.nav-Links li.list-item {
+  margin: 25px;
+  margin-top: 35px;
+  list-style: none;
+  font-size: 18px;
+  color: rgb(177, 19, 71);
+  font-family: "Century Gothic";
+  font-weight: 700;
+}
+
+ul.nav-Links li.list-item:hover {
+  margin: 25px;
+  margin-top: 35px;
+  list-style: none;
+  font-size: 18px;
+  color: rgb(177, 19, 71);
+  border-bottom: 2px solid rgb(177, 19, 71);
+}
+
+ul.nav-Links li a.page-link {
+  text-decoration: none;
+  color: rgb(177, 19, 71);
+}
+
+ul.nav-Links li.List-item {
+  margin: 25px;
+  margin-top: 20px;
+  padding-top: 13px;
+  padding-left: 15px;
+  list-style: none;
+  font-size: 18px;
+  color: white;
+  width: 150px;
+  height: 50px;
+  background-color: rgb(177, 19, 71);
+  border: none;
+  font-weight: 700;
+  font-family: "Century Gothic";
+  border: none;
+}
+
+.first-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-container {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 800px;
+}
+
+.web-image {
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px 0.5px hsl(208, 11%, 55%);
+}
+
+.content {
+  color: rgb(82, 29, 47);
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Century Gothic";
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 80px;
+}
+
+.second-content {
+  color: gray;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Century Gothic";
+  margin-bottom: 30px;
+  margin-left: 80px;
+}
+
+.input-group {
+  display: flex;
+}
+
+.btns1 {
+  width: 120px;
+  height: 40px;
+  color: white;
+  font-weight: 700;
+  font-family: "Century Gothic";
+  border: none;
+  background-color: rgb(177, 19, 71);
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px 0.5px hsl(208, 11%, 55%);
+  margin-left: 80px;
+}
+
+.btns2 {
+  width: 120px;
+  height: 40px;
+  color: black;
+  font-weight: 700;
+  font-family: "Century Gothic";
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 7px 0.5px hsl(208, 11%, 55%);
+  margin-left: 30px;
+}
+
+.footer-text {
+  background-color: rgb(177, 19, 71);
+  height: 150px;
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.footer-container {
+  margin-left: 200px;
+  display: flex;
+  color: white;
+  font-family: "Century Gothic";
+  font-weight: 700;
+}
+
+/*.savings {
+  color: white;
+  font-family: "Century Gothic";
+  font-weight: 700;
+}*/
+
+.photos {
+  margin-left: 180px;
+}
+
+.rockets {
+  margin-left: 240px;
+}
+
+.globes {
+  margin-left: 240px;
+}
+
+.footer-bg {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(177, 19, 71);
+  margin-top: 70px;
+  padding: 0;
+}
+
+ul.footer {
+  margin: 0px;
+  padding-top: 40px;
+}
+
+ul.footer li {
+  display: inline;
+}
+
+ul.footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+ul.footer li a p {
+  display: inline;
+  margin-left: 150px;
+  margin-bottom: 0px;
+}
+
+.one {
+  margin-left: 300px;
+}
+
+.social-media {
+  margin-top: 30px;
+  margin-left: 530px;
+}
+
+.icon {
+  display: none;
+  color: white;
+  font-size: 20px;
+}
+
+i.bi-justify {
+  color: black;
+}
+
+i.bi-facebook,
+i.bi-twitter,
+i.bi-youtube,
+i.bi-linkedin {
+  margin-right: 50px;
+}
+
+
+@media (max-width: 900px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  ul.nav-Links {
+    display: flex;
+    margin: 0;
+    margin-left: 0px;
+  }
+
+  ul.nav-Links li.list-item {
+    margin: 25px;
+    margin-top: 35px;
+    list-style: none;
+    font-size: 18px;
+    color: white;
+  }
+
+  ul.nav-Links li a.page-link {
+    text-decoration: none;
+    color: white;
+  }
+
+  div.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100vw;
+  }
+
+  ul.nav-Links {
+    flex-direction: column;
+  }
+
+  ul li {
+    margin: 0;
+    font-size: 17px;
+  }
+
+  ul li a {
+    display: block;
+    color: white;
+  }
+
+  .nav-Links {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+  }
+
+  .nav-Links.active {
+    left: 0;
+  }
+
+  li {
+    margin: 2.5rem 0;
+  }
+
+  ul.nav-Links li.list-item:hover {
+    margin: 25px;
+    margin-top: 35px;
+    list-style: none;
+    font-size: 18px;
+    color: rgb(177, 19, 71);
+    border-bottom: none;
+  }
+
+  .icon {
+    display: block;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+  }
+
+  .img-container {
+  position: initial;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+  .web-image {
+    width: 500px;
+    height: 400px;
+  }
+
+  .footer-text {
+    width: 100%;
+  }
+
+  .footer-container {
+    margin-left: 100px;
+  }
+
+  .photos {
+  margin-left: 120px;
+}
+
+.rockets {
+  margin-left: 140px;
+}
+
+.globes {
+  margin-left: 140px;
+}
+
+  .footer-bg {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+
+  ul.footer {
+    display: flex;
+  }
+
+  ul.footer li a p {
+    margin-left: 0;
+  }
+
+  .one {
+    margin-left: 300px;
+  }
+
+  .one,
+  .two {
+    margin-right: 50px;
+  }
+
+  .social-media {
+    margin-left: 250px;
+  }
+
+  i.bi-facebook,
+  i.bi-twitter,
+  i.bi-youtube,
+  i.bi-linkedin {
+  margin-right: 70px;
+}
+}
+
+@media (max-width: 600px) {
+  .web-image {
+    width: 420px;
+  }
+
+  .footer-container {
+    margin-left: 20px;
+  }
+
+  .photos {
+  margin-left: 80px;
+}
+
+.rockets {
+  margin-left: 100px;
+}
+
+.globes {
+  margin-left: 90px;
+}
+
+  .one {
+    margin-left: 160px;
+  }
+
+  .social-media {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 450px) {
+  .content {
+    font-size: 30px;
+    margin-left: 30px;
+  }
+
+  .second-content {
+    font-size: 16px;
+    margin-left: 30px;
+  }
+
+  .btns1 {
+    margin-left: 30px;
+  }
+
+  .img-container {
+    margin-left: 30px;
+  }
+
+  .web-image {
+    width: 350px;
+    height: 350px;
+  }
+
+  .photos {
+  margin-left: 40px;
+}
+
+.rockets {
+  margin-left: 60px;
+}
+
+.globes {
+  margin-left: 50px;
+}
+
+  .one {
+    margin-left: 100px;
+  }
+
+  .social-media {
+    margin-left: 75px;
+  }
+
+  i.bi-facebook,
+  i.bi-twitter,
+  i.bi-youtube,
+  i.bi-linkedin {
+  margin-right: 50px;
+}
+}
+
+@media (max-width: 375px) {
+  .web-image {
+    width: 300px;
+    height: 300px;
+  }
+  .photos {
+  margin-left: 20px;
+}
+
+.rockets {
+  margin-left: 20px;
+}
+
+.globes {
+  margin-left: 30px;
+}
+
+.one {
+    margin-left: 70px;
+  }
+
+  .social-media {
+    margin-left: 60px;
+  }
+
+  i.bi-facebook,
+  i.bi-twitter,
+  i.bi-youtube,
+  i.bi-linkedin {
+  margin-right: 40px;
+}
+}
