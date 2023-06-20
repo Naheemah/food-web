@@ -94,16 +94,20 @@ ul.nav-Links li.List-item {
   color: rgb(177, 19, 71);
 }
 
+.qa-box {
+  display: flex;
+}
+
 .qa {
-  position: absolute;
+  position: initial;
   margin-top: 100px;
   margin-left: 100px;
 }
 
 .Second-qa {
-  position: absolute;
+  position: initial;
   margin-top: 100px;
-  margin-left: 730px;
+  margin-left: 100px;
 }
 
 .question-3 {
@@ -134,32 +138,24 @@ ul.nav-Links li.List-item {
 }
 
 .footer-img {
-  margin-top: 400px;
+  margin-top: 100px;
 }
 
 .first-img {
-  background-image: url("food (15).jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("food (15).jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 84.3rem;
+  width: 100%;
   height: 90px;
 }
 
 .second-img {
   position: inherit;
-  background-image: url("food (24).jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("food (24).jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 84.3rem;
+  width: 100%;
   height: 90px;
-}
-
-.bg-black {
-  position: absolute;
-  background-color: black;
-  background-color: rgba(0, 0, 0, 0.7);
-  width: 84.3rem;
-  height: 180px;
 }
 
 .Inner-Content {
@@ -231,7 +227,7 @@ ul.nav-Links li.List-item {
 }
 
 .footer-bg {
-  width: 84.32rem;
+  width: 100%;
   height: 150px;
   background-color: rgb(177, 19, 71);
   margin-top: 70px;
@@ -291,7 +287,18 @@ ul.linkedin li.link {
   font-size: 20px;
 }
 
-@media screen and (max-width: 375px) {
+i.bi-justify {
+  color: black;
+}
+
+i.bi-facebook,
+i.bi-twitter,
+i.bi-youtube,
+i.bi-linkedin {
+  margin-right: 50px;
+}
+
+@media (max-width: 900px) {
   * {
     margin: 0;
     padding: 0;
@@ -299,7 +306,7 @@ ul.linkedin li.link {
   }
 
   body {
-    background-color: white;
+    background: #fff;
   }
 
   ul.nav-Links {
@@ -342,6 +349,10 @@ ul.linkedin li.link {
     color: white;
   }
 
+  ul.nav-Links li.List-item {
+    display: none;
+  }
+
   .nav-Links {
     position: fixed;
     left: -100%;
@@ -349,11 +360,13 @@ ul.linkedin li.link {
     flex-direction: column;
     background-color: gray;
     background-color: rgba(0, 0, 0, 0.7);
-    width: 70%;
+    width: 100%;
     height: 500px;
     border-radius: 10px;
-    text-align: left;
+    text-align: center;
     transition: 0.3s;
+    justify-content: center;
+    align-items: center;
   }
 
   .nav-Links.active {
@@ -380,297 +393,261 @@ ul.linkedin li.link {
     font-size: 20px;
   }
 
-  .heading2 {
-    text-align: center;
-    color: rgb(82, 29, 47);
-    font-size: 30px;
-    font-weight: 700;
-    font-family: "Century Gothic";
-    margin-top: 20px;
-    margin-left: 0px;
-    margin-right: 50px;
-  }
-
-  .qa {
-    position: initial;
-    margin-top: 50px;
-    margin-left: 20px;
-  }
-
-  .question-1 {
-    color: rgb(82, 29, 47);
-    font-weight: 700;
-    font-family: "Century Gothic";
-    text-align: center;
-    margin-left: 0px;
-    margin-right: 100px;
-    margin-bottom: 20px;
-  }
-
-  .answer-1 {
-    color: gray;
-    font-weight: 700;
-    font-family: "Century Gothic";
-    text-align: left;
-    margin-left: 20px;
-    margin-right: 60px;
-    margin-bottom: 50px;
-  }
-
-  .question-2 {
-    color: rgb(82, 29, 47);
-    font-weight: 700;
-    font-family: "Century Gothic";
-    text-align: left;
-    margin-left: 0px;
-    margin-right: 50px;
-    margin-bottom: 20px;
-  }
-
-  .answer-2 {
-    color: gray;
-    font-weight: 700;
-    font-family: "Century Gothic";
-    text-align: left;
-    margin-left: 20px;
-    margin-right: 60px;
-  }
-
-  .sign {
-    color: rgb(177, 19, 71);
-  }
-
-  .Second-qa {
-    position: initial;
-    margin-top: 50px;
-    margin-left: 20px;
-  }
-
-  .question-3 {
-    color: rgb(82, 29, 47);
-    font-weight: 700;
-    font-family: "Century Gothic";
-    text-align: left;
-    margin-left: 0px;
-    margin-right: 50px;
-    margin-bottom: 20px;
-  }
-
-  .animal {
-    margin-left: 15px;
-  }
-
-  .answer-3 {
-    color: gray;
-    font-weight: 700;
-    font-family: "Century Gothic";
-    text-align: left;
-    margin-left: 15px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-  }
-
-  .question-4 {
-    color: rgb(82, 29, 47);
-    font-weight: 700;
-    font-family: "Century Gothic";
-    text-align: left;
-    margin-left: 0;
-    margin-right: 70px;
-    margin-bottom: 20px;
-  }
-
-  .near {
-    margin-left: 15px;
-  }
-
-  .answer-4 {
-    color: gray;
-    font-weight: 700;
-    font-family: "Century Gothic";
-    text-align: left;
-    margin-left: 15px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-  }
-
-  .footer-img {
-    margin-top: 100px;
-  }
-
-  .first-img {
-    background-image: url("food (15).jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 24.3rem;
-    height: 90px;
-  }
-
-  .second-img {
-    position: inherit;
-    background-image: url("food (24).jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 24.3rem;
-    height: 90px;
-  }
-
-  .bg-black {
-    position: absolute;
-    background-color: black;
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 34.3rem;
-    height: 180px;
-  }
-
-  .Inner-Content {
-    position: absolute;
-    color: white;
-    font-size: 20px;
-    font-family: "Century Gothic";
-    font-weight: 700;
-    margin-top: 65px;
-    margin-left: 20px;
-  }
-
-  .by::after {
-    content: "\a";
-    white-space: pre;
-  }
-
-  .btns1 {
-    width: 120px;
-    height: 40px;
-    color: white;
-    font-weight: 700;
-    font-family: "Century Gothic";
-    border: none;
-    background-color: rgb(177, 19, 71);
-    margin-top: 10px;
-    margin-left: 170px;
-  }
-
-  .hurry {
-    color: rgb(82, 29, 47);
-    font-weight: 700;
-    font-size: 25px;
-    font-family: "Century Gothic";
-    text-align: left;
-    margin-left: 20px;
-    margin-top: 50px;
-    line-height: 2rem;
-  }
-
-  .news {
-    margin-left: 20px;
-  }
-
-  .discount {
-    margin-left: 90px;
-  }
-
-  .limited {
-    color: gray;
-    font-size: 17px;
-    font-weight: 700;
-    font-family: "Century Gothic";
-    text-align: left;
-    margin-top: 10px;
-    margin-left: 25px;
-  }
-
-  .month::after {
-    content: "\a";
-    white-space: pre;
-  }
-
-  .no {
-    margin-left: 20px;
-  }
-
-  .input-group {
-    margin-top: 40px;
-    margin-left: 20px;
-  }
-
-  .msg {
-    width: 250px;
-    height: 50px;
-    border: 2px solid gray;
-    margin-bottom: 20px;
-  }
-
-  ::placeholder {
-    padding-left: 20px;
-    color: gray;
-    font-family: "Century Gothic";
-    font-weight: 600;
-  }
-
-  .btns2 {
-    width: 120px;
-    height: 40px;
-    color: white;
-    font-weight: 700;
-    font-family: "Century Gothic";
-    border: none;
-    background-color: rgb(177, 19, 71);
-    margin-left: 170px;
-  }
-
-  .footer-bg {
-    width: 84.32rem;
-    height: 450px;
-    background-color: rgb(177, 19, 71);
-    margin-top: 170px;
-  }
-
-  ul.footer {
-    margin: 0px;
-    padding-top: 40px;
-  }
-
-  ul.footer li {
+  .qa-box {
     display: block;
-    padding: 20px;
   }
 
-  ul.footer a {
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-  }
-
-  ul.footer li a p {
-    display: inline;
-    margin-left: 50px;
-  }
-
-  .one {
-    margin-left: 0px;
-  }
-
-  .fa-stack {
+  .qa,
+  .Second-qa {
     margin-left: 30px;
   }
 
-  ul.facebook li.face {
-    text-decoration: none;
-    list-style: none;
+  .Second-qa {
+    margin-top: 30px;
   }
 
-  ul.twitter li.tweet {
-    text-decoration: none;
-    list-style: none;
+  .answer-1,
+  .answer-2,
+  .answer-3,
+  .answer-4 {
+    letter-spacing: 0.2em;
+    word-spacing: 0.5em;
   }
 
-  ul.linkedin li.link {
-    text-decoration: none;
-    list-style: none;
+  .first-img {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("food (15).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90px;
+}
+
+.second-img {
+  position: inherit;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("food (24).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90px;
+}
+
+.Inner-Content {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  font-family: "Century Gothic";
+  font-weight: 700;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.btns1 {
+  width: 120px;
+  height: 40px;
+  color: white;
+  font-weight: 700;
+  font-family: "Century Gothic";
+  border: none;
+  background-color: rgb(177, 19, 71);
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+.input-group {
+  margin-left: 210px;
+}
+
+.footer-bg {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    margin-top: 200px;
+  }
+
+  ul.footer {
+    display: flex;
+  }
+
+  ul.footer li a p {
+    margin-left: 0;
+  }
+
+  .one {
+    margin-left: 320px;
+  }
+
+  .one,
+  .two {
+    margin-right: 50px;
   }
 
   .social-media {
-    margin-top: 30px;
-    margin-left: 0px;
+    margin-left: 250px;
   }
+
+  i.bi-facebook,
+  i.bi-twitter,
+  i.bi-youtube,
+  i.bi-linkedin {
+  margin-right: 70px;
+}
+}
+
+@media (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: white;
+  }
+
+  .Inner-Content {
+    margin-top: 70px;
+    margin-left: 120px;
+  }
+
+  .inner-content {
+    font-size: 18px;
+  }
+
+  .btns1 {
+    margin-left: 120px;
+  }
+
+  .hurry {
+    font-size: 20px;
+  }
+
+  .input-group {
+    margin-left: 70px;
+  }
+
+  .footer-bg {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    margin-top: 200px;
+  }
+
+  ul.footer {
+    display: flex;
+  }
+
+  ul.footer li a p {
+    margin-left: 0;
+  }
+
+  .one {
+    margin-left: 170px;
+  }
+
+  .one,
+  .two {
+    margin-right: 50px;
+  }
+
+  .social-media {
+    margin-left: 100px;
+  }
+
+  i.bi-facebook,
+  i.bi-twitter,
+  i.bi-youtube,
+  i.bi-linkedin {
+  margin-right: 70px;
+}
+}
+
+@media (max-width: 450px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: white;
+  }
+
+  .answer-1,
+  .answer-2,
+  .answer-3,
+  .answer-4 {
+    padding-left: 0px;
+    padding-right: 30px;
+    word-spacing: 0.5em;
+    letter-spacing: 0.2em;
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+
+  .Inner-Content {
+    margin-left: 80px;
+  }
+
+  .inner-content {
+    font-size: 14px;
+  }
+
+  .btns1 {
+    margin-left: 80px;
+  }
+
+  .hurry {
+    font-size: 18px;
+  }
+
+  .limited {
+    font-size: 13px;
+  }
+
+  .input-group {
+    margin-left: 30px;
+  }
+
+  .msg {
+    width: 200px;
+  }
+
+  .btns2 {
+    margin-top: 0px;
+    margin-left: 230px;
+  }
+
+  ::placeholder {
+    font-size: 14px;
+    font-family: 'fantasy';
+    font-style: italic;
+  }
+
+  .one {
+    margin-left: 120px;
+  }
+
+  .one,
+  .two {
+    margin-right: 40px;
+  }
+
+  .one,
+  .two,
+  .three {
+    font-size: 15px;
+  }
+
+  .social-media {
+    margin-left: 75px;
+  }
+
+  i.bi-facebook,
+  i.bi-twitter,
+  i.bi-youtube,
+  i.bi-linkedin {
+  margin-right: 50px;
+}
 }

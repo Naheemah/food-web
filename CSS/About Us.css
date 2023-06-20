@@ -95,7 +95,7 @@ main {
 }
 
 .btns1 {
-  position: absolute;
+  position: initial;
   width: 120px;
   height: 40px;
   color: white;
@@ -104,7 +104,7 @@ main {
   border: none;
   background-color: rgb(177, 19, 71);
   box-shadow: 2px 2px 7px 0.5px hsl(208, 11%, 55%);
-  margin-top: 290px;
+  margin-top: 30px;
   margin-left: 30px;
 }
 
@@ -334,6 +334,10 @@ i.bi-linkedin {
     color: white;
   }
 
+  ul.nav-Links li.List-item {
+    display: none;
+  }
+
   .nav-Links {
     position: fixed;
     left: -100%;
@@ -390,13 +394,13 @@ i.bi-linkedin {
   input[type="submit"] {
     width: 200px;
     height: 60px;
-    margin-top: 320px;
+    margin-top: 30px;
     font-size: 20px;
-    margin-left: 0px;
+    margin-left: 30px;
   }
 
   .image1 {
-    margin-top: 300px;
+    margin-top: calc(300px - 230px);
     margin-left: 180px;
     position: initial;
   }
@@ -407,8 +411,7 @@ i.bi-linkedin {
 
   .heading,
   .second-paragraph,
-  .content-link,
-  input[type="submit"] {
+  .content-link {
     margin-left: 50px;
   }
 
@@ -474,7 +477,12 @@ i.bi-linkedin {
 }
 
 @media (max-width: 600px) {
+  input[type="submit"] {
+    margin-left: 30px;
+  }
+
   .image1 {
+    margin-top: 70px;
     margin-left: 50px;
   }
 
@@ -567,24 +575,31 @@ i.bi-linkedin {
     margin-left: 20px;
     width: 300px;
     height: 300px;
+    margin-top: 70px;
   }
 
   .heading,
   .heading2{
     font-size: 25px;
+    margin-left: 30px;
   }
+
   .heading2 {
     width: 360px;
-    margin-left: 0;
   }
 
   .paragraph,
   .second-paragraph {
     font-size: 13px;
+    margin-left: 30px;
   }
 
   input[type="submit"] {
-    margin-top: 280px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+  .content-link {
     margin-left: 30px;
   }
 
@@ -625,6 +640,12 @@ i.bi-linkedin {
     margin-right: 40px;
   }
 
+  .one,
+  .two,
+  .three {
+    font-size: 15px;
+  }
+
   .social-media {
     margin-left: 75px;
   }
@@ -647,13 +668,14 @@ i.bi-linkedin {
   }
 
   input[type="submit"] {
-    margin-top: 330px;
+    margin-top: 30px;
     margin-left: 0;
   }
 
   .image1 {
     width: 250px;
     height: 250px;
+    margin-top: 70px;
   }
 
   .second-content {
@@ -664,22 +686,42 @@ i.bi-linkedin {
     margin-left: 0;
   }
 
+  .heading2 {
+    width: 280px;
+    margin-left: 0;
+    font-size: 22px;
+  }
+
   .grid-layout {
+    width: 250px;
     margin-top: 650px;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-right: 0;
   }
 
   .img3 {
-    width: 140px;
+    width: 120px;
+    height: 200px;
+  }
+
+  .img4 {
+    width: 100px;
+    height: 150px;
   }
 
   .one {
-    margin-left: 85px;
+    margin-left: 110px;
   }
 
   .one,
   .two {
     margin-right: 20px;
+  }
+
+  .one,
+  .two,
+  .three {
+    font-size: 14px;
   }
 
   .social-media {
