@@ -206,10 +206,10 @@ ul.nav-Links li.List-item {
   width: 300px;
   height: 40px;
   border: 2px solid gray;
+  padding-left: 10px;
 }
 
 ::placeholder {
-  padding-left: 20px;
   color: gray;
   font-family: "Century Gothic";
   font-weight: 600;
@@ -278,7 +278,7 @@ ul.linkedin li.link {
 
 .social-media {
   margin-top: 30px;
-  margin-left: 490px;
+  margin-left: 520px;
 }
 
 .icon {
@@ -457,6 +457,10 @@ i.bi-linkedin {
   margin-left: 210px;
 }
 
+.msg {
+  padding-left: 10px;
+}
+
 .footer-bg {
     height: 200px;
     display: flex;
@@ -524,6 +528,10 @@ i.bi-linkedin {
 
   .input-group {
     margin-left: 70px;
+  }
+
+  .msg {
+    padding-left: 10px;
   }
 
   .footer-bg {
@@ -612,6 +620,7 @@ i.bi-linkedin {
 
   .msg {
     width: 200px;
+    padding-left: 10px;
   }
 
   .btns2 {
@@ -649,5 +658,95 @@ i.bi-linkedin {
   i.bi-youtube,
   i.bi-linkedin {
   margin-right: 50px;
+}
+}
+
+@media (max-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: white;
+  }
+
+  .heading2 {
+    font-size: 20px;
+  }
+
+  .qa {
+    margin-top: 40px;
+  }
+
+  .question-1,
+  .question-2,
+  .question-3,
+  .question-4 {
+    font-size: 14px;
+  }
+
+  .answer-1,
+  .answer-2,
+  .answer-3,
+  .answer-4 {
+    font-size: 14px;
+    word-spacing: 0.2em;
+    letter-spacing: 0.1em;
+  }
+
+  .Inner-Content {
+    margin-left: 50px;
+  }
+
+  .inner-content {
+    margin-left: 0px;
+    font-size: 14px;
+  }
+
+  .hurry {
+    font-size: 14px;
+  }
+
+  .limited {
+    font-size: 12px;
+  }
+
+  .msg {
+    width: 200px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+  }
+
+  .btns2 {
+    margin-left: 200px;
+    margin-top: 0px;
+  }
+
+  .one {
+    margin-left: 110px;
+  }
+
+  .one,
+  .two {
+    margin-right: 20px;
+  }
+
+  .one,
+  .two,
+  .three {
+    font-size: 14px;
+  }
+
+  .social-media {
+    margin-left: 60px;
+  }
+
+  i.bi-facebook,
+  i.bi-twitter,
+  i.bi-youtube,
+  i.bi-linkedin {
+  margin-right: 40px;
 }
 }
